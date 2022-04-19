@@ -13,13 +13,14 @@ public class Question2
     Scanner in = new Scanner(System.in);
     
     // Prompt user for height (cm)
-    System.out.print("Enter height (cm):");
+    // System.out.print("Enter height (cm):");
     double height = in.nextDouble();
     // Prompt user for weight (kg)
-    System.out.print("Enter weight (kg):");
+    // System.out.print("Enter weight (kg):");
     double weight = in.nextDouble();
     // Calculate BMI
     double bmi = weight / (height * height);
+    // System.out.println("Your BMI is: " + bmi);
     System.out.println(bmi);
 
   }
