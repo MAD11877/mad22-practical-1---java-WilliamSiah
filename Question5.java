@@ -29,14 +29,14 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
     // Prompt user for Initial integer
-    System.out.print("Enter a number: ");
+    // System.out.print("Enter a number: ");
     int initialNum = in.nextInt();
 
     // Initalise list
     ArrayList<Integer> numList = new ArrayList<>();
     // Get list of numbers
     for (int i = 0; i < initialNum; ++i){
-      System.out.print("Enter a random integer: ");
+      // System.out.print("Enter a random integer: ");
       int ranInt =  in.nextInt();
       // Add int to list
       numList.add(ranInt);
@@ -63,6 +63,7 @@ public class Question5
     }
 
     // Print Mode
-    System.out.println("The Mode is: " + mode);
+    // System.out.println("The Mode is: " + mode);
+    System.out.println(mode);
   }
 }
