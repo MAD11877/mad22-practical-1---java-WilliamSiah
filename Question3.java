@@ -11,6 +11,12 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    // Prompt user for integer
+    System.out.print("Enter integer: ");
+    int num = in.nextInt();
+    // Multiply integer by itself
+    int num2 = num * num;
+    // Print result
+    System.out.println("Result: " + num2);
   }
 }

@@ -18,6 +18,16 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    // Prompt user for base length
+    System.out.print("Enter base length of triangle (int): ");
+    int base = in.nextInt();
+    // Printing triangle
+    for (int i = base; i > 0; --i){
+      for (int k = 0; k < i; ++k){
+        System.out.print("*");
+      }
+      // New line
+      System.out.println();
+    }
   }
 }
